@@ -1,0 +1,26 @@
+{
+  "name": "haiku-app",
+  "version": "0.0.1",
+  "authors": [
+    "Tyler Morgan <tylermorgan86@gmail.com>"
+  ],
+  "description": "a haiku creation javascript app",
+  "main" : "server.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "backbone": "~1.1.2"
+  }
+}
