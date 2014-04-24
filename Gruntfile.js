@@ -67,7 +67,10 @@ module.exports = function(grunt) {
         dest: 'app/build/client.js',
         options: {
           transform: ['debowerify', 'hbsfy'],
-          debug: true
+          debug: true,
+          alias: [
+            './app/config/dev.js:env'
+          ]
         }
       }
     },
